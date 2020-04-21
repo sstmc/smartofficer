@@ -1,0 +1,96 @@
+{
+  "hists" : [ {
+    "key" : "c4ace796-0755-4e32-b85d-4c8197e17da9",
+    "descr" : "",
+    "assertBdy" : true,
+    "result" : null,
+    "cause" : null,
+    "excludedNodes" : null,
+    "request" : {
+      "url" : "http://localhost:9090/user",
+      "method" : "GET",
+      "body" : "",
+      "date" : "2020-04-21 17:53:45.075",
+      "headers" : {
+        "Content-Type" : "application/json; charset=UTF-8",
+        "Accept" : "application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain"
+      },
+      "cookies" : { }
+    },
+    "response" : {
+      "body" : "[{\"id\":1,\"username\":\"walter\",\"name\":\"walterwang\",\"org_ID\":\"SSTMC\",\"role_ID\":\"VPE\",\"email\":\"walter1202@126.com\",\"wechat\":\"15624957178\"}]",
+      "headers" : {
+        "Transfer-Encoding" : "chunked",
+        "Date" : "Tue, 21 Apr 2020 09:53:46 GMT",
+        "Content-Type" : "application/json;charset=UTF-8"
+      },
+      "date" : "2020-04-21 17:53:45.510",
+      "time" : 624,
+      "status" : "HTTP/1.1 200 ",
+      "statusCode" : 200,
+      "raw_text" : "== REQUEST  ==\r\n\r\nGET http://localhost:9090/user\r\n\r\n-- HEADERS  --\r\nContent-Type : application/json; charset=UTF-8\r\nAccept : application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain\r\n\r\n== RESPONSE ==\r\n\r\nHTTP/1.1 200 \r\n\r\n-- HEADERS  --\r\nTransfer-Encoding : chunked\r\nDate : Tue, 21 Apr 2020 09:53:46 GMT\r\nContent-Type : application/json;charset=UTF-8\r\n\r\n--   BODY   --\r\n[{\"id\":1,\"username\":\"walter\",\"name\":\"walterwang\",\"org_ID\":\"SSTMC\",\"role_ID\":\"VPE\",\"email\":\"walter1202@126.com\",\"wechat\":\"15624957178\"}]\r\n"
+    }
+  }, {
+    "key" : "71d077b3-8944-4c2f-90f5-5f46c0fca1e7",
+    "descr" : "",
+    "assertBdy" : true,
+    "result" : null,
+    "cause" : null,
+    "excludedNodes" : null,
+    "request" : {
+      "url" : "http://localhost:9090/user",
+      "method" : "POST",
+      "body" : "{\"username\":\"candy\",\"name\":\"candyzhou\",\"org_ID\":\"SSTMC\",\"role_ID\":\"member\",\"email\":\"candyzhou@126.com\",\"wechat\":\"15001238092\"}",
+      "date" : "2020-04-21 17:55:38.084",
+      "headers" : {
+        "Content-Type" : "application/json; charset=UTF-8",
+        "Accept" : "application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain"
+      },
+      "cookies" : { }
+    },
+    "response" : {
+      "body" : "true",
+      "headers" : {
+        "Transfer-Encoding" : "chunked",
+        "Date" : "Tue, 21 Apr 2020 09:55:38 GMT",
+        "Content-Type" : "application/json;charset=UTF-8"
+      },
+      "date" : "2020-04-21 17:55:38.086",
+      "time" : 71,
+      "status" : "HTTP/1.1 200 ",
+      "statusCode" : 200,
+      "raw_text" : "== REQUEST  ==\r\n\r\nPOST http://localhost:9090/user\r\n\r\n-- HEADERS  --\r\nContent-Type : application/json; charset=UTF-8\r\nAccept : application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain\r\n\r\n--   BODY   --\r\n{\"username\":\"candy\",\"name\":\"candyzhou\",\"org_ID\":\"SSTMC\",\"role_ID\":\"member\",\"email\":\"candyzhou@126.com\",\"wechat\":\"15001238092\"}\r\n\r\n== RESPONSE ==\r\n\r\nHTTP/1.1 200 \r\n\r\n-- HEADERS  --\r\nTransfer-Encoding : chunked\r\nDate : Tue, 21 Apr 2020 09:55:38 GMT\r\nContent-Type : application/json;charset=UTF-8\r\n\r\n--   BODY   --\r\ntrue\r\n"
+    }
+  }, {
+    "key" : "3714916a-252e-4fc0-af04-a2d50f7e9d36",
+    "descr" : "",
+    "assertBdy" : true,
+    "result" : null,
+    "cause" : null,
+    "excludedNodes" : null,
+    "request" : {
+      "url" : "http://localhost:9090/user",
+      "method" : "GET",
+      "body" : "",
+      "date" : "2020-04-21 17:55:51.168",
+      "headers" : {
+        "Accept" : "application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain",
+        "Content-Type" : "application/json; charset=UTF-8"
+      },
+      "cookies" : { }
+    },
+    "response" : {
+      "body" : "[{\"id\":1,\"username\":\"walter\",\"name\":\"walterwang\",\"org_ID\":\"SSTMC\",\"role_ID\":\"VPE\",\"email\":\"walter1202@126.com\",\"wechat\":\"15624957178\"},{\"id\":2,\"username\":\"candy\",\"name\":\"candyzhou\",\"org_ID\":\"SSTMC\",\"role_ID\":\"member\",\"email\":\"candyzhou@126.com\",\"wechat\":\"15001238092\"}]",
+      "headers" : {
+        "Transfer-Encoding" : "chunked",
+        "Date" : "Tue, 21 Apr 2020 09:55:51 GMT",
+        "Content-Type" : "application/json;charset=UTF-8"
+      },
+      "date" : "2020-04-21 17:55:51.169",
+      "time" : 16,
+      "status" : "HTTP/1.1 200 ",
+      "statusCode" : 200,
+      "raw_text" : "== REQUEST  ==\r\n\r\nGET http://localhost:9090/user\r\n\r\n-- HEADERS  --\r\nAccept : application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain\r\nContent-Type : application/json; charset=UTF-8\r\n\r\n== RESPONSE ==\r\n\r\nHTTP/1.1 200 \r\n\r\n-- HEADERS  --\r\nTransfer-Encoding : chunked\r\nDate : Tue, 21 Apr 2020 09:55:51 GMT\r\nContent-Type : application/json;charset=UTF-8\r\n\r\n--   BODY   --\r\n[{\"id\":1,\"username\":\"walter\",\"name\":\"walterwang\",\"org_ID\":\"SSTMC\",\"role_ID\":\"VPE\",\"email\":\"walter1202@126.com\",\"wechat\":\"15624957178\"},{\"id\":2,\"username\":\"candy\",\"name\":\"candyzhou\",\"org_ID\":\"SSTMC\",\"role_ID\":\"member\",\"email\":\"candyzhou@126.com\",\"wechat\":\"15001238092\"}]\r\n"
+    }
+  } ]
+}
